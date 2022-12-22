@@ -1,0 +1,43 @@
+    [{
+        "platform": "webpage",
+        {
+            "type": "web-application",
+            {
+                "navigation" {
+                    "homepage",
+                    "products",
+                    "contact",
+                    "about",
+                    "cart"
+                } {
+                    "products" {
+                        "item1",
+                        "item2",
+                        "item3",
+                        "item4"
+                    } {
+                        "item1" {
+                            "price": "$12.99",
+                            "description": "This is the description of item 1" {
+                                "order-button": "`${add-to-cart}`"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }]
+
+ENCRYPT AES256: with checksum key:ddddd5d56d56dcd65d6dc56dc65dc65 IV:647277dc7e7baadeca8989769fffea7
+
+in which the contract is registered with a service that provides verification and consistency as an itermediary after
+an audit and onward to deployment on mainnets (a vavlidation of contracts essentially--to ensure nothing is changed and is made aware of any upgradeable proxy contracts..etc)
+
+provides a unnique KEY ad IV every time the page is served for verification.
+
+then
+
+AES DECRYPT KEY: ddddd5d56d56dcd65d6dc56dc65dc65, IV: 647277dc7e7baadeca8989769fffea7, MODE: CBC, INPUT: RAW OUTPUT: HEX
+
+hashed JSON: abac235ebace5262323525bc52........... (shortened)
