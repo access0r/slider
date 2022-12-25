@@ -1,5 +1,5 @@
 (serving webpages without HTML,CSS,JS structured entirely in JSON)
-this is all done with a implementationn of openAI to valitdate the checksum and then rebuilds the webapage
+this is all done with a implementationn of openAI to valitdate the checksum and then rebuilds the webpage
 completely on the client-side, which also removes the need (if applicable) of any open web sockets
 use html, javascript, class
 
