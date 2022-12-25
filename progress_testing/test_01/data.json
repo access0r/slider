@@ -1,0 +1,39 @@
+    "platform": "webpage",
+    {
+        "type": "web-application",
+        {
+            "navigation" {
+                "homepage",
+                "products",
+                "contact",
+                "about",
+                "cart"
+            } {
+                "section" {
+                    "css":{
+                        'width':'80%'';
+                        'margin':'0 Auto';
+                        'padding':'20%';
+                        'border':'2px solid black';
+                        'border-radius':'20%';
+                    }
+                    "row" {
+                        "image" {
+                            "src": ".../image.png"
+
+                        } 
+                        {
+                            "item1" {
+                                "price": "$12.99",
+                                "description": "This is the description of item 1" {
+                                    "order-button": "`${add-to-cart}`"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        ]
+
+        
